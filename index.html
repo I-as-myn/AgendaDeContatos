@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container"> 
+<header>
+    <img src="./images/logo.png" alt="agenda com simbolo de telefone" />
+    <h1>Agenda de Contatos</h1>
+</header>
+
+<form id="form">
+    <label>Nome: </label>
+    <input type="text" required  id="Nome" placeholder="Digite o nome" />
+    <label>Telefone: </label>
+    <input type="number" required id="telefone" placeholder="Digite o número de telefone" />
+    <button type="submit">Cadastrar</button>
+</form>
+<table cellspacing ="0">
+    <thead>
+        <tr>
+            <th>Nome <img src="./images/logo contato .png" alt="logo contato" /> </th>
+            <th>Telefone <img src="./images/logo telefone.png" alt="simbolo telefone" /></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>---</td>
+            <td>----</td>
+        </tr>
+<tfoot></tfoot>
+    </tbody>
+    
+</table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
